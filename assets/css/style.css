@@ -1,0 +1,539 @@
+.container {
+width: 1200px;
+height: 850px;
+position: relative;
+background: 
+}
+
+header {
+	width: 1200px;
+	height: 80px;
+	border-bottom: 2px solid #694274;
+	position: relative;
+
+}
+
+#name {
+	background: #cb42f4;
+	width: 340px;
+	height: 80px;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #fff;
+	margin-left: 70px;
+	z-index: 10;
+}
+
+h1 {
+	
+}
+
+nav { 
+	
+	position: absolute;
+	top: 40px;
+	right: 115px;
+	
+}
+
+ul {
+	list-style-type: none;
+	
+}
+
+li {
+	display: inline;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	padding: 3px;
+	margin: 2px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #cb42f4;
+}
+
+a:visited {
+	color: #680bb7;
+}
+
+a:hover {
+	color: #ff87e9;
+}
+
+a:active {
+	color: #cb42f4;
+}
+
+#navdivider {
+color: #694274;
+opacity: 0.5;
+}
+
+#about_me {
+	width: 650px;
+	height: 400px;
+	border: none;
+	box-shadow: 2px 2px 1px #694274;
+	margin-top: 50px;
+	margin-left: 70px;
+	padding-right: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #fce8f8;
+	z-index: 9; 
+}
+
+h2 {
+	font-size: 26px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #cb42f4;
+
+
+}
+
+#line_decor {
+	height: 3px;
+	background-color: #694274;
+	color: #694274;
+	border: 0 none;
+	margin-bottom: 25px;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+ #mypic {
+	float: left;
+	margin-right: 10px;
+
+ }
+
+#bio {
+	font-family: helvetica, sans-serif;
+
+	
+	
+}
+
+#bio_position {
+
+}
+
+
+ .connect {
+ 	border: none;
+ 	position: absolute;
+ 	top: 132px;
+ 	width: 265px;
+ 	height: 200px;
+ 	right: 170px;
+ 	padding: 25px;
+ 	box-sizing: border-box;
+ 	z-index: 9;
+ 	background-color: #fce8f8;
+ 	box-shadow: 2px 2px 1px #694274;
+
+
+ }
+
+ .connect_text {
+	
+	
+ }
+
+ .connect_line {
+	position: absolute;
+	width: 82%;
+	height: 2px;
+	border: none;
+	text-align: left;
+	background-color: #694274; 
+	color: #694274;
+ }
+
+ .icon_set {
+ 	text-align: center;
+ }
+
+.logos {
+	width: 60px;
+	height: 60px;
+	padding: 3px;
+	margin-top: 30px;
+
+}
+
+
+
+ .texture {
+	position: absolute;
+	top: 82px;
+
+ }
+
+ #texturepic {
+ 	opacity: 0.5;
+ 	width: 1200px;
+ 	height: 775px;
+
+ }
+
+ .footer {
+ 	width: 1200px;
+ 	height: 80px;
+ 	background-color: #694274;
+ 	position: absolute;
+ 	bottom: 0;
+
+
+ }
+
+ .footer_text {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	font-size: 15px;
+	color: #fff;
+	font-family: helvetica, sans-serif;
+ }
+
+#contact {
+	width: 650px;
+	height: 600px;
+	border: none;
+	box-shadow: 2px 2px 1px #694274;
+	margin-top: 50px;
+	margin-left: 70px;
+	padding-right: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #fce8f8;
+	z-index: 9; 
+}
+
+label {
+
+	color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+#nameinput, #emailinput {
+	width: 580px;
+	line-height: 200%
+}
+
+button {
+	margin-top: 20px;
+	display: block;
+	color: #fff;
+	background-color: #cb42f4;
+	font-size: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+}
+
+#portfolio {
+	width: 650px;
+	height: 600px;
+	border: none;
+	box-shadow: 2px 2px 1px #694274;
+	margin-top: 50px;
+	margin-left: 70px;
+	padding-right: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #fce8f8;
+	z-index: 9; 
+}
+
+form {
+	padding: 10px;
+	align-content: center;
+	width: 100%;
+}
+
+#hangman {
+	/*background-color: red;*/
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	z-index: 15;
+	top: 92px;
+}
+
+#hangmancap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 157px;
+	z-index: 20;
+
+}
+
+#rpg {
+	/*background-color: green;*/
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	right: 25px;
+	top: 92px;
+	z-index: 15;
+}
+
+#rpgcap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 157px;
+	z-index: 20;
+
+}
+
+#rutgers {
+	background-color: blue;
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	right: 25px;
+	top: 347px;
+	z-index: 15;
+}
+
+#rutgerscap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 155px;
+	z-index: 20;
+
+}
+
+#trivia {
+	/*background-color: pink;*/
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	top: 347px;
+	z-index: 15;
+}
+
+#triviacap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 155px;
+	z-index: 20;
+
+}
+
+.caption {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 980px) {
+
+	.container {
+		width: 980px;
+		height: auto;
+}
+
+	header {
+		width: 980px;
+		height: 80px;
+		border-bottom: 2px solid #694274;
+		position: relative;
+	}
+
+	#about_me {
+		width: 40%;
+		height: 470px;
+	
+	}
+
+	#mypic {
+		float: none;
+		margin: 0 auto;
+		margin-left: 18.1%;
+		margin-right: 18.1%;
+		margin-bottom: 10%;
+ 	}
+	.connect {
+ 	border: none;
+ 	position: absolute;
+ 	top: 132px;
+ 	width: 265px;
+ 	height: 200px;
+ 	right: 170px;
+ 	padding: 25px;
+ 	box-sizing: border-box;
+ 	z-index: 9;
+ 	background-color: #fce8f8;
+ 	box-shadow: 2px 2px 1px #694274;
+ }
+
+	#bio {
+		margin: 0 auto;
+	}
+
+	#contact {
+		width: 40%;
+	}
+
+	#nameinput, #emailinput {
+	width: 93%;
+	line-height: 200%
+}
+	textarea {
+		width: 93%
+	}
+	#portfolio {
+		width: 40%;
+		height: 1130px;
+	}
+	#texturepic {
+		opacity: 0;
+	}
+	.texture {
+		background-color: #a496a5;
+		height: 1400px;
+	}
+	#hangman {
+		top: 92px;
+		right: 53px;
+	}
+	#rpg {
+		top: 347px;
+		right: 53px;
+	}
+	#trivia {
+		top: 602px;
+		right: 53px;
+	}
+	#rutgers {
+		top: 857px;
+		right: 53px;
+	}
+
+}	
+@media screen and (max-width: 768px) {
+	
+		.container {
+		width: 768px;
+		height: auto;
+}
+
+	header {
+		width: 768px;
+		height: 80px;
+		border-bottom: 2px solid #694274;
+		position: relative;
+	}
+
+	#about_me {
+		width: 80%;
+		height: 400px;
+		border: none;
+
+	}
+
+	#mypic {
+		float: left;
+		margin: 0 auto;
+		margin-left: 0;
+		margin-right: 20px;
+		margin-bottom: 10px;
+ 	}
+
+ .footer {
+ 	width: 768px;
+ 	height: 80px;
+ 	background-color: #694274;
+ 	position: relative;
+ 	bottom: 0;
+ 	display: block;
+ }
+
+	#bio {
+		margin: 0 auto;
+	}
+
+ .connect {
+ 	border: none;
+ 	position: absolute;
+ 	top: 560px;
+ 	width: 265px;
+ 	height: 180px;
+ 	left: 70px;
+ 	padding: 25px;
+ 	width: 80%
+ 	
+ }
+
+ .connect_text {
+	
+	
+ }
+
+ .connect_line {
+	position: absolute;
+	width: 92%;
+	height: 2px;
+	border: none;
+	text-align: left;
+	background-color: #694274; 
+	color: #694274;
+ }
+
+ .icon_set {
+ 	position: absolute;
+ left: 25px;	
+ }
+
+.logos {
+	width: 60px;
+	height: 60px;
+	padding: 3px;
+	margin-top: 30px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	
+}
